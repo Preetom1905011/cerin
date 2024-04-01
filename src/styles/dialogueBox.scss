@@ -1,0 +1,49 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+$bg-color: rgb(28, 26, 26);
+
+.dialogue {
+    font-family: "Caveat", cursive;
+    // font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 24px;
+    padding: 0.25rem;
+
+    color: whitesmoke;
+}
+.txt-box {
+    // background-color: red;
+    width: 22rem;
+}
+.center {
+    text-align: center;
+    
+}
+.txt-black {
+    color: $bg-color;
+}
+.page-turn {
+    width: 100vw;
+    position: absolute;
+    bottom: 2rem;
+    left: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right-align {
+    justify-content: flex-end;
+}
+.np-btn {
+    padding: 0.5rem 2rem;
+    transition: box-shadow 0.3s ease;
+    &:hover{
+        text-shadow: 0 0 1.5rem rgba(255, 255, 255);
+    }
+}
+.start-btn {
+    font-weight: 600;
+    font-size: 36px;
+}

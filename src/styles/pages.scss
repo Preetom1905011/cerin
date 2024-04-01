@@ -1,0 +1,16 @@
+.box {
+    width: 22rem;
+    height: 22rem;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    margin-bottom: 0.5rem;
+
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+
+    img{
+        width: 22rem;
+    }
+}

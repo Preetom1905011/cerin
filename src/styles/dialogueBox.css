@@ -1,0 +1,47 @@
+.dialogue {
+  font-family: "Caveat", cursive;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 24px;
+  padding: 0.25rem;
+  color: whitesmoke;
+}
+
+.txt-box {
+  width: 22rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.txt-black {
+  color: rgb(28, 26, 26);
+}
+
+.page-turn {
+  width: 100vw;
+  position: absolute;
+  bottom: 2rem;
+  left: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right-align {
+  justify-content: flex-end;
+}
+
+.np-btn {
+  padding: 0.5rem 2rem;
+  transition: box-shadow 0.3s ease;
+}
+.np-btn:hover {
+  text-shadow: 0 0 1.5rem rgb(255, 255, 255);
+}
+
+.start-btn {
+  font-weight: 600;
+  font-size: 36px;
+}/*# sourceMappingURL=dialogueBox.css.map */

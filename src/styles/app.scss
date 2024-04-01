@@ -1,0 +1,18 @@
+$bg-color: rgb(28, 26, 26);
+
+html, body {
+    background-color: $bg-color;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+}
