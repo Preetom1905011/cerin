@@ -8,7 +8,7 @@ export default function DialogueBox() {
   const [displayText, setDisplayText] = useState("");
   const [isPrinting, setIsPrinting] = useState(false);
   const [startPressed, setStartPressed] = useState(false);
-  const revealSpeed = 100; // Adjust the speed here
+  const revealSpeed = 85; // Adjust the speed here
   const hidden_str = "|";
 
   useEffect(() => {
