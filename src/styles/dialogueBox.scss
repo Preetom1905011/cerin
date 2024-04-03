@@ -40,6 +40,7 @@ $bg-color: rgb(28, 26, 26);
     padding: 0.5rem 2rem;
     transition: box-shadow 0.3s ease;
     &:hover{
+        cursor: pointer;
         text-shadow: 0 0 1.5rem rgba(255, 255, 255);
     }
 }
