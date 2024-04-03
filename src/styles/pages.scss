@@ -15,4 +15,14 @@
     }
 }
 
-  
+
+@media (max-width: 768px) {
+    .box {
+        width: 90%; /* Set the width to 80% of the screen size */
+        height: auto;
+        max-width: 22rem; /* Limit maximum width */
+        img {
+            width: 100%; /* Set width to 100% of the container */
+        }
+    }
+}

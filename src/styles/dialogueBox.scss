@@ -48,3 +48,15 @@ $bg-color: rgb(28, 26, 26);
     font-weight: 600;
     font-size: 36px;
 }
+
+
+@media (max-width: 768px) {
+    .txt-box {
+        width: 90%; /* Set the width to 80% of the screen size */
+        height: auto;
+        max-width: 22rem;
+    }
+    .np-btn {
+        padding: 0.5rem 2rem;
+    }
+}
