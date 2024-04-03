@@ -46,7 +46,7 @@ export default function Pages({currentIndex}) {
 
   return (
     <div className='dialogue box'>
-      <img src={frame} style={{ opacity: opacity, transition: 'opacity 3s ease-in-out' }}/>
+      <img src={frame} style={{ opacity: opacity, transition: 'opacity 5s ease-in-out' }}/>
     </div>
   )
 }
