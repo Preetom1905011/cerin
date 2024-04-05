@@ -15,6 +15,7 @@ export default function Pages({currentIndex}) {
     const [frame, setFrame] = useState(null);
     const [opacity, setOpacity] = useState(0);
 
+
     useEffect(()=>{
         setOpacity(1);
         if (currentIndex >= sentences.length - 2){
@@ -26,7 +27,7 @@ export default function Pages({currentIndex}) {
         else if (currentIndex >= 8 && currentIndex < 15){
             setFrame(frame_erin);
         }
-        else if (currentIndex == 15) {
+        else if (currentIndex === 15) {
             setFrame(frame_skyfall);
         }
         else if (currentIndex >= 16 && currentIndex < 21) {

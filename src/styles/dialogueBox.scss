@@ -49,6 +49,14 @@ $bg-color: rgb(28, 26, 26);
     font-size: 36px;
 }
 
+.volume-btn {
+    color: white;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    transform: scale(1.5);
+}
+
 
 @media (max-width: 768px) {
     .txt-box {

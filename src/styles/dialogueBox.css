@@ -47,6 +47,14 @@
   font-size: 36px;
 }
 
+.volume-btn {
+  color: white;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  transform: scale(1.5);
+}
+
 @media (max-width: 768px) {
   .txt-box {
     width: 90%; /* Set the width to 80% of the screen size */
